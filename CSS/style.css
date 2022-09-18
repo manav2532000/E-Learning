@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.jj{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{
+    width: 70%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active,.nav-list li:hover{
+    background: #bb707044;
+    border-radius: 51px;
+}
+.sub-menu{
+    display: none;
+}
+.nav-list li:hover.sub-menu{
+    display: block;
+    position: absolute;
+    background: rgb(187, 204, 187);
+    margin-top: 15px;
+    margin-top: 15px;
+}
+.rightNav{
+    width:30%;
+    text-align: right;
+    padding: 0 25px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/tan.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 65%;
+}
+.firstSection{
+    height: 100vh;
+    text-align: center;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 35%;
+    border: 4px solid  white;
+    border-radius: 150px;
+    padding: 4px;
+
+}
+.text-big{
+    font-size: 30px;
+    text-align: center;
+
+}
+.text-small{
+    font-size: 15px;
+    text-align: center;
+
+}
+.text-smalls{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 280px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.bt-dark{
+    color: black;
+    border-color: grey;
+}
+.section-jv{
+    height: 1700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+.section{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-fr{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+}
+.section-left{
+    height: 1400px;
+    color: white;
+}
+.section-lefts{
+    height: 1100px;
+    color: white;
+}
+.section-op{
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.section-ol{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+}
+.paras{
+    padding: 0 45px;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.thumbnail img{
+width: 250px;
+height: 250px;
+border: 2px solid black;
+border-radius: 2px;
+margin-top: -236px;
+margin-right: -229px;
+}
+.contact{
+    background-color: #f6f5f4;
+    height: 833px;
+    
+}
+.text-center{
+    text-align: center;
+    margin: 42px auto;
+    font-family:'Ubuntu', sans-serif; 
+    font-size: 35px;
+    padding-top: 20px;
+}
+.form{
+    max-width: 400px;
+    margin: 42px auto;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+ font-size: 15px;
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: flex;
+ justify-content: center;
+ color: white;
+}
+.FH{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.btn-sb{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-as{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: -184px;
+    margin-left: 195px;
+}
+.ii{
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.FF{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.qq{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 26px;
+    font-size: 20px;
+}
+.thumb img{
+    width: 250px;
+    height: 250px;
+    margin-top: 800px;
+    margin-left: -32px;
+    margin-right: -87px;
+}
+.DD{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.gg{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.thumbnail-btp img{
+width: 250px;
+height: 400px;
+margin-top: 800px;
+margin-left: -110px;
+}
+.ee{
+    color: white;
+    font-size: 15px;
+}
+.pp{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.thumbnail-q img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: -240px;
+    margin-right: -259px;
+}
+.thumbnail-o img{
+    width: 200px;
+    height: 150px;
+    margin-top: -114px;
+    margin-left: -176px;
+    margin-right: 40px;
+}
+.thumbnail-btpl img{
+    width: 200px;
+    height: 150px;
+    margin-top: 300px;
+}
+.thumbnail-y img{
+    margin-right: -82px;
+    width: 200px;
+    margin-top: -115px;
+}
+.thumbnail-btpu img{
+width: 200px;
+}
+.thumbnail-ll{
+    margin-top: -319px;
+    margin-left: 580px;
+
+}

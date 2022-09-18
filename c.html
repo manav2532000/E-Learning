@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>C++</title>
+</head>
+<body background="c.jpeg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a></li>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            
+            
+        </ul>
+    </nav>
+    <section class="section section-left" id="c++" >
+        <div class="paras">
+        <p class="sectionTag text-big">C++ Programming Language</p>
+        <p class="sectionSubTag text-small">C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. 
+        C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.). The basic syntax and code structure of both C and C++ are the same. <br>
+        <h4 class="FF">Introduction to C++ Programming Language</h4><br>
+        <ul class="bullet"><li>Simple: It is a simple language in the sense that programs can be broken down into logical units and parts, has a rich library support and a variety of data-types
+Machine Independent but Platform Dependent: A C++ executable is not platform-independent (compiled programs on Linux won’t run on Windows), however they are machine independent.</li><br>
+<li>Mid-level language: It is a mid-level language as we can do both systems-programming (drivers, kernels, networking etc.) and build large-scale user applications (Media Players, Photoshop, Game Engines etc.)</li><br>
+<li>Rich library support: Has a rich library support (Both standard ~ built-in data structures, algorithms etc.) as well 3rd party libraries (e.g. Boost libraries) for fast and rapid development.</li><br>
+<li>Speed of execution: C++ programs excel in execution speed. Since, it is a compiled language, and also hugely procedural. Newer languages have extra in-built default features such as garbage-collection, dynamic typing etc. which slow the execution of the program overall. Since there is no additional processing overhead like this in C++, it is blazing fast.</li><br>
+<li>Pointer and direct Memory-Access: C++ provides pointer support which aids users to directly manipulate storage address. This helps in doing low-level programming (where one might need to have explicit control on the storage of variables).</li><br>
+<li>Object-Oriented: One of the strongest points of the language which sets it apart from C. Object-Oriented support helps C++ to make maintainable and extensible programs. i.e. Large-scale applications can be built. Procedural code becomes difficult to maintain as code-size grows.</li><br>
+<li>Compiled Language: C++ is a compiled language, contributing to its speed.</li><br></ul>
+Applications of C++:<br>
+C++ finds varied usage in applications such as:<br>
+Operating Systems & Systems Programming. e.g. Linux-based OS (Ubuntu etc.)<br>
+Browsers (Chrome & Firefox)<br>
+Graphics & Game engines (Photoshop, Blender, Unreal-Engine)<br>
+Database Engines (MySQL, MongoDB, Redis etc.)<br>
+Cloud/Distributed Systems<br>
+<h5 class="gg">Variables in C++</h5><br>
+A variable is a name given to a memory location. It is the basic unit of storage in a program. 
+The value stored in a variable can be changed during program execution.<br>
+A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.
+In C++, all the variables must be declared before use.
+Types Of Variables<br>
+There are three types of variables based on the scope of variables in C++: <br>
+1.Local Variables<br>
+2.Instance Variables<br>
+3.Static Variables<br>
+Local Variables: A variable defined within a block or method or constructor is called local variable. 
+These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+Initialisation of Local Variable is Mandatory.<br>
+Instance Variables: Instance variables are non-static variables and are declared in a class outside any method, constructor or block. 
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+Initialisation of Instance Variable is not Mandatory.
+Instance Variable can be accessed only by creating objects.<br>
+Static Variables: Static variables are also known as Class variables. 
+These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Static variables are created at the start of program execution and destroyed automatically when execution ends.
+Initialization of Static Variable is not Mandatory. Its default value is 0
+If we access the static variable like Instance variable (through an object), the compiler will show the warning message and it won’t halt the program. The compiler will replace the object name to class name automatically.
+If we access the static variable without the class name, Compiler will automatically append the class name.<br>
+<h6 class="ee">To Watch Tutorials Click On the Button Given Below </h6>
+<button class="btn-sb"><a class="ii" href="https://youtu.be/yGB9jhsEsr8" target="_blank">C++</a><br></button>   
+        
+            </p>
+        </div>
+        <div class="thumbnail">
+           <img src="c.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+        <div class="thumb">
+            <img src="cv.png" alt="decoding" class="imgFluid" height="135">
+        </div>
+       </section>
+       <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027-All rights reserved
+        </p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>JAVA</title>
+</head>
+<body background="dp.jpg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+           
+            
+        </ul>
+    </nav>
+    <section class="section-jv" id="java" >
+        <div class="paras">
+        <p class="sectionTag text-big">Java Programming Language</p>
+        <p class="sectionSubTag text-small"> <ul class="bullet">
+            <li>Java has been one of the most popular programming languages for many years.</li>
+            <li>Java is Object Oriented. However, it is not considered as pure object-oriented as it provides support for primitive data types (like int, char, etc)</li>
+            <li>The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.</li>
+            <li>The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.</li>
+            <li>Java is used in all kinds of applications like Mobile Applications (Android is Java-based), desktop applications, web applications, client-server applications, enterprise applications, and many more.</li>
+            <li>When compared with C++, Java codes are generally more maintainable because Java does not allow many things which may lead to bad/inefficient programming if used incorrectly. For example, non-primitives are always references in Java. So we cannot pass large objects (like we can do in C++) to functions, we always pass references in Java. One more example, since there are no pointers, bad memory access is also not possible.</li>
+            <li>When compared with Python, Java kind of fits between C++ and Python. The programs are written in Java typically run faster than corresponding Python programs and slower than C++. Like C++, Java does static type checking, but Python does not.
+            </li>
+        
+        </ul>
+<h3 class="qq">Variables in Java</h3><br>
+Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location name of the data.
+A variable is a name given to a memory location.<br>
+Types of Variables in Java<br>
+Now let us discuss different types of variables which are listed as follows:<br>
+Local Variables<br>
+Instance Variables<br>
+Static Variables<br>
+<b>1.Local variables</b> <br>
+
+A variable defined within a block or method or constructor is called a local variable. 
+
+These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e., we can access these variables only within that block.
+Initialization of the local variable is mandatory before using it in the defined scope.<br>
+<b>2.Instance Variables</b><br>
+
+Instance variables are non-static variables and are declared in a class outside any method, constructor, or block. 
+
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers, for instance, variables. If we do not specify any access specifier, then the default access specifier will be used.
+Initialization of Instance Variable is not Mandatory. Its default value is 0
+Instance Variable can be accessed only by creating objects.<br>
+<b>3. Static Variables</b><br>
+
+Static variables are also known as Class variables. 
+
+These variables are declared similarly as instance variables. The difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Static variables are created at the start of program execution and destroyed automatically when execution ends.
+Initialization of Static Variable is not Mandatory. Its default value is 0
+If we access the static variable like the Instance variable (through an object), the compiler will show the warning message, which won’t halt the program. The compiler will replace the object name with the class name automatically.
+If we access the static variable without the class name, the compiler will automatically append the class name.
+Differences between the Instance variable Vs. the Static variables
+Now let us do discuss the differences between the Instance variable Vs. the Static variables
+
+Each object will have its copy of the instance variable, whereas We can only have one copy of a static variable per class irrespective of how many objects we create.
+Changes made in an instance variable using one object will not be reflected in other objects as each object has its own copy of the instance variable. In the case of static, changes will be reflected in other objects as static variables are common to all objects of a class.
+We can access instance variables through object references, and Static Variables can be accessed directly using the class name.<br>
+Syntax: Static and instance variables<br>
+class GFG<br>
+{<br>
+   // Static variable<br>
+   static int a; <br>
+   
+   // Instance variable<br>
+   int b;<br>        
+} <br>
+<h3 class="qq"> History</h3>
+Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991.<br> Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms.<br> Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.<br>
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status.<br> Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.<br>
+On November 13, 2006, Sun released much of its Java virtual machine as free, open-source software. On May 8, 2007, Sun finished the process, making all of its JVM’s core code available under open-source distribution terms.<br>
+The principles for creating java were simple, robust, secured, high performance, portable, multi-threaded, interpreted, dynamic, etc. James Gosling in 1995 developed Java, who is known as the Father of Java.<br> Currently, Java is used in mobile devices, internet programming, games, e-business, etc.<br>
+Java programming language is named JAVA.<br>
+<h2 class="DD">To Watch Tutorials Click On the Button Given Below </h2>
+<button class="btn-sb"><a class="ii" href="https://youtu.be/rV_3Lewxx6o" target="_blank">JAVA COURSE</a><br></button>       
+       </p>
+        </div>
+        <div class="thumbnail">
+           <img src="jaba.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+        <div class="thumb">
+        <img src="variable.jpeg" alt="coding" class="imgFluid" height="135">
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027-All rights reserved
+        </p>
+    </footer>
+</body>
+</html>
